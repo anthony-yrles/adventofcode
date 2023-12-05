@@ -22,4 +22,4 @@ with open (nom_du_fichier, "r") as fichier:
             dernier_chiffre = chiffres[-1]
             chiffre = premier_chiffre + dernier_chiffre
             total = total + int(chiffre)
-        # print(total)
+        print(total)
